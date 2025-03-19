@@ -1,0 +1,9 @@
+﻿  test1.cpp
+D:\VS2019\Code\practice\Project1 250120\test1.cpp(15,8): warning C4473: “scanf”: 没有为格式字符串传递足够的参数
+D:\VS2019\Code\practice\Project1 250120\test1.cpp(15,8): message : 占位符和其参数预计 3 可变参数，但提供的却是 1 参数
+D:\VS2019\Code\practice\Project1 250120\test1.cpp(15,8): message : 缺失的可变参数 2 为格式字符串“%d”所需
+D:\VS2019\Code\practice\Project1 250120\test1.cpp(27,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
+D:\VS2019\Code\practice\Project1 250120\test1.cpp(27,9): warning C4473: “printf”: 没有为格式字符串传递足够的参数
+D:\VS2019\Code\practice\Project1 250120\test1.cpp(27,9): message : 占位符和其参数预计 3 可变参数，但提供的却是 1 参数
+D:\VS2019\Code\practice\Project1 250120\test1.cpp(27,9): message : 缺失的可变参数 2 为格式字符串“%d”所需
+  Project1 250120.vcxproj -> D:\VS2019\Code\practice\Project1 250120\Debug\Project1 250120.exe

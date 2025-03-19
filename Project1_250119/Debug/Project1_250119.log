@@ -1,0 +1,2 @@
+﻿test1_2.obj : error LNK2005: _main 已经在 test1_1.obj 中定义
+D:\VS2019\Code\practice\Project1_250119\Debug\Project1_250119.exe : fatal error LNK1169: 找到一个或多个多重定义的符号

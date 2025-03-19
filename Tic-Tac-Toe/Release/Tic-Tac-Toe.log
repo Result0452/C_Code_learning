@@ -1,0 +1,8 @@
+﻿  game.cpp
+  test.cpp
+  Previous IPDB not found, fall back to full compilation.
+  正在生成代码
+C:\Users\Result\source\repos\Tic-Tac-Toe\game.cpp(206): warning C4715: “IsWin”: 不是所有的控件路径都返回值
+  All 13 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  Tic-Tac-Toe.vcxproj -> C:\Users\Result\source\repos\Tic-Tac-Toe\Release\Tic-Tac-Toe.exe

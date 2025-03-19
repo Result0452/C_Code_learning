@@ -1,0 +1,5 @@
+﻿  test1.cpp
+D:\VS2019\Code\practice\Project1_250122\test1.cpp(9,9): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int”
+D:\VS2019\Code\practice\Project1_250122\test1.cpp(9,9): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“int”
+D:\VS2019\Code\practice\Project1_250122\test1.cpp(9,9): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 3 拥有了类型“int”
+  Project1_250122.vcxproj -> D:\VS2019\Code\practice\Project1_250122\Debug\Project1_250122.exe
