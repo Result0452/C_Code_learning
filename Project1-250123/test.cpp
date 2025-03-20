@@ -1554,3 +1554,97 @@ KiKi参加了语文、数学、外语的考试，请帮他判断三科中的最高分。从键盘任意输入三个整
 //    return 0;
 //}
 
+///*在屏幕上打印杨辉三角。*/
+//#include <stdio.h>
+//
+//int YangHui_Triangle_Num(int x, int y)
+//{
+//	if (0 == x)//当x坐标为0时该位置是空的，返回0
+//		return 0;
+//	else if (x > y)//当x坐标大于y时该位置是空的，返回0
+//		return 0;
+//	else if (1 == x && 1 == y)//当坐标为(1,1)时该位置数字为1
+//		return 1;
+//	else//通过求上面两个数字的和求出该数字的值
+//		return YangHui_Triangle_Num((x - 1), (y - 1)) + YangHui_Triangle_Num(x, (y - 1));
+//}
+//
+//int main()
+//{
+//	int n = 0;
+//	int i = 0;
+//	int j = 0;
+//	scanf("%d", &n);
+//	for (j = 1; j <= n; j++)
+//	{
+//		for (i = 1; i <= j; i++)
+//		{
+//			int num = YangHui_Triangle_Num(i, j);//计算(i,j)坐标上的数字
+//			printf("%2d ", num);
+//		}
+//		printf("\n");
+//	}
+//	return 0;
+//}
+
+///*猜凶手
+//日本某地发生了一件谋杀案，警察通过排查确定杀人凶手必为4个嫌疑犯的一个。
+//以下为4个嫌疑犯的供词:
+//A说：不是我。
+//B说：是C。
+//C说：是D。
+//D说：C在胡说
+//已知3个人说了真话，1个人说的是假话。
+//现在请根据这些信息，写一个程序来确定到底谁是凶手。*/
+//#include <stdio.h>
+//
+//int main()
+//{
+//	char crimer = 0;
+//	char A_confession = 'a';//小写字母a表示凶手不是A
+//	int A = 0;//A的供词,0为假，1为真
+//	char B_confession = 'C';//大写字母C表示凶手是C
+//	int B = 0;//B的供词,0为假，1为真
+//	char C_confession = 'D';//大写字母D表示凶手是D
+//	int C = 0;//C的供词,0为假，1为真
+//	int D = 0;//D的供词,0为假，1为真
+//	for (crimer = 'A'; crimer < 'E'; crimer++)//把凶手假设从'A'到'D'遍历
+//	{
+//		//判断A所说的真假
+//		if (A_confession - 32 == crimer)
+//			A = 0;
+//		else
+//			A = 1;
+//		//判断B所说的真假
+//		if (B_confession == crimer)
+//			B = 1;
+//		else
+//			B = 0;
+//		//判断C所说的真假
+//		if (C_confession == crimer)
+//			C = 1;
+//		else
+//			C = 0;
+//		//判断D所说的真假
+//		if (C)
+//			D = 0;
+//		else
+//			D = 1;
+//		//判断是否为三真一假，即和为3,是则跳出循环
+//		if (3 == (A + B + C + D))
+//			break;
+//		
+//	}
+//	//输出凶手
+//	printf("%c", crimer);
+//	return 0;
+//}
+
+/*猜名次
+5位运动员参加了10米台跳水比赛，有人让他们预测比赛结果：
+A选手说：B第二，我第三；
+B选手说：我第二，E第四；
+C选手说：我第一，D第二；
+D选手说：C最后，我第三；
+E选手说：我第四，A第一；
+比赛结束后，每位选手都说对了一半，请编程确定比赛的名次*/
